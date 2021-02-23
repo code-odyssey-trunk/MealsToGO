@@ -27,6 +27,6 @@ export const SectionEnd = styled.View`
 `;
 
 export const Icon = styled.Image`
-  width: 15px, 
-  height: 15px
+  width: ${(props) => props.theme.space[3]};
+  height: ${(props) => props.theme.space[3]};
 `;
