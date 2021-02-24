@@ -21,7 +21,7 @@ export const RestaurantInfoCard = ({ restaurant = {} }) => {
     photos = [
       "https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHw%3D&w=1000&q=80",
     ],
-    address = "100 random street",
+    address = "101 random street",
     isOpenNow = true,
     rating = 4,
     isClosedTemporarily = true,
