@@ -27,6 +27,7 @@ const Loading = styled(ActivityIndicator)`
 
 export const RestaurantsScreen = () => {
   const { restaurants, isLoading, error } = useContext(RestaurantsContext);
+  console.log(restaurants);
   return (
     <SafeArea>
       {isLoading && (

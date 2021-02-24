@@ -9,7 +9,6 @@ export const LocationContextProvider = ({ children }) => {
   const [keyword, setKeyword] = useState("San Francisco");
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
-  console.log();
 
   const onSearch = (searchKeyword) => {
     setIsLoading(true);
@@ -29,9 +28,9 @@ export const LocationContextProvider = ({ children }) => {
       });
   };
 
-  useEffect(() => {
-    onSearch(keyword);
-  }, []);
+  //   useEffect(() => {
+  //     onSearch(keyword);
+  //   }, []);
 
   return (
     <LocationContext.Provider
