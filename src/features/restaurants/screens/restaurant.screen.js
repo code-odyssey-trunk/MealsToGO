@@ -11,11 +11,7 @@ import { FavouritesContext } from "../../../services/favourites/favourites.conte
 
 import { Search } from "../components/search.component";
 
-const RestaurantList = styled(FlatList).attrs({
-  contentContainerStyle: {
-    padding: 16,
-  },
-})``;
+import { RestaurantList } from "../components/restaurant-list.styles";
 
 const LoadingContainer = styled.View`
   position: absolute;
