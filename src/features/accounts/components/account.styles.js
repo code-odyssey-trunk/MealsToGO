@@ -55,3 +55,11 @@ export const LoadingContainer = styled.View`
 export const Loading = styled(ActivityIndicator)`
   margin-left: -25px;
 `;
+
+export const AnimationWrapper = styled.View`
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  top: 30px;
+  padding: ${(props) => props.theme.space[2]};
+`;
