@@ -11,7 +11,6 @@ import { RestaurantsContext } from "../../../services/restaurants/restaurants.co
 import { FavouritesContext } from "../../../services/favourites/favourites.context";
 
 import { Search } from "../components/search.component";
-
 import { RestaurantList } from "../components/restaurant-list.styles";
 
 const LoadingContainer = styled.View`
