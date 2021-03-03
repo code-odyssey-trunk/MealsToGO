@@ -5,8 +5,6 @@ An online food ordering app created using react-native. This app follows ReactNa
 ## View app
 Go to the [Expo link](https://expo.io/@jasimpicme/projects/MealsToGo)
 
-## Features
-See [Roadmap](https://github.com/terrysahaidak/project/issues/5).
 
 ## Technologies and stack
 - React Native
